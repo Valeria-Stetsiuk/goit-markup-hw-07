@@ -27,7 +27,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
-    background-color: var(--secondary-text-color);
+    background-color: $secondary-text-color;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -46,7 +46,7 @@
     align-items: center;
         &:hover,
             &:focus {
-            fill: var(--accent-color);
+            fill: $accent-color;
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             }
             }
@@ -70,7 +70,7 @@
     line-height: calc(23 / 20);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
 
 .modal__label {
@@ -84,7 +84,7 @@
 .form-field {
     position: relative;
     margin-bottom: 10px;
-    color: var(--title-text-color);
+    color: $title-text-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -104,16 +104,16 @@
 }
 
 .form-field-input:focus+.icon-form {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 
 .form-field-input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     outline: none;
 }
 
 .field-input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     outline: none;
 }
 
@@ -137,10 +137,10 @@
 
 .icon-checkbox {
     margin-right: 8px;
-    border: 2px solid var(--title-text-color);
+    border: 2px solid $title-text-color;
     border-radius: 2px;
-    background-color: var(--primary-bg-color);
-    fill: var(--secondary-text-color);
+    background-color: $primary-bg-color;
+    fill: $secondary-text-color;
 }
 
 .checkbox {
@@ -157,12 +157,12 @@
 }
 
 input:checked+.icon-checkbox {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
+    background-color: $accent-color;
+    border-color: $accent-color;
 }
 
 .contract-link {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .form-button {
@@ -179,8 +179,8 @@ input:checked+.icon-checkbox {
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
+    color: $secondary-text-color;
+    background-color: $accent-color;
 
     letter-spacing: 0.06em;
 }

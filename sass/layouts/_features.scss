@@ -16,7 +16,7 @@
     height: 120px;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondary-bg-color);
+    background-color: $secondary-bg-color;
     border-radius: 4px;
     margin-bottom: 30px;
 }
@@ -31,7 +31,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
 
 .feature__text {

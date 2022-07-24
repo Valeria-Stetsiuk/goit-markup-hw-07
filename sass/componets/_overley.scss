@@ -10,7 +10,7 @@
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
 }
 
 .project__list:hover .project__overlay {

@@ -12,7 +12,7 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     text-transform: uppercase;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
 }
 
 .footer__form-input {
@@ -32,7 +32,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         &:hover,
         &:focus {
-            border-color: var(--accent-color);
+            border-color: $accent-color;
         }
 }
 
@@ -49,17 +49,17 @@
     line-height: calc(30 / 16);
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
-    border: 1px solid var(--acent-color);
+    color: $secondary-text-color;
+    background-color: $accent-color;
+    border: 1px solid $acent-color;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover,
         &:focus {
             font-family: inherit;
-                color: var(--secondary-text-color);
-                background: var(--hovery-color);
+                color: $secondary-text-color;
+                background: $hovery-color;
         }
 }
 
