@@ -30,12 +30,13 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+        }
 }
 
-.footer__form-input:hover,
-.footer__form-input:focus {
-    border-color: var(--accent-color);
-}
+
 
 .footer__form-btn {
     display: inline-flex;
@@ -54,14 +55,12 @@
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__form-btn:hover,
-.footer__form-btn:focus {
-    font-family: inherit;
-    color: var(--secondary-text-color);
-    background: var(--hovery-color);
-
+        &:hover,
+        &:focus {
+            font-family: inherit;
+                color: var(--secondary-text-color);
+                background: var(--hovery-color);
+        }
 }
 
 .footer__send {

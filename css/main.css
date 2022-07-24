@@ -1091,23 +1091,19 @@ input:checked + .icon-checkbox {
   padding: 13px 32px;
   fill: #afb1b8;
 }
+.customer__logo > a:hover, .customer__logo > a:focus {
+  border-color: var(--accent-color);
+}
 
 .customer__logo:not(:first-child) {
   margin-left: 30px;
-}
-
-.customer__logo:hover,
-.customer__logo:focus {
-  border-color: var(--accent-color);
 }
 
 .customer__link {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.customer__link:hover,
-.customer__link:focus {
+.customer__link:hover, .customer__link:focus {
   fill: var(--accent-color);
 }
 
@@ -1280,12 +1276,7 @@ input:checked + .icon-checkbox {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer__mail:hover,
-.footer__mail:focus {
-  color: var(--accent-color);
-}
-
+.footer__mail:hover, .footer__mail:focus,
 .footer__tel:hover,
 .footer__tel:focus {
   color: var(--accent-color);
